@@ -1,0 +1,77 @@
+
+section {
+	display: grid;
+	place-items: center;
+	
+}
+.bio{
+    margin-right: 75px;
+}
+.Testimonial_card{
+    border: 1px solid #010080;
+    border-radius: 10px;
+    box-shadow: 12px 3px 1px 6px #010080;
+}
+.section-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.section-header:after{
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    background: #fff;
+}
+.section-header span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.testimonials{
+    max-width: 1000px;
+  
+}
+.single-item{
+    background: #fff;
+    color: #111;
+ 
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 7px solid #cc0001;
+}
+.content{
+    font-size: 18px;
+}
+
+.content p span {
+	font-size: 48px;
+	margin-right: 20px;
+    color: blueviolet;
+}
+.socials i {
+	margin-right: 25px;
+}
+.bio h4 {
+	font-family: 'Berkshire Swash', cursive;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: blueviolet;
+}
